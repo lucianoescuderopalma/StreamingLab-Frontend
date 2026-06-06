@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0D86FC8-D5F9-6DF6-36B9-6D6D9F9195DA" name="JOB">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>58AE0FC2-0C03-77F6-C04F-48D7D1131CEA</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8BE17982-ED92-DB34-6537-F15F2BA6048F">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>494FDEF4-C8D1-1DD1-B47C-B667231AD614</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="0347718D-29FE-F829-2D7C-FA2EF949DFAC">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>A4AAFFAA-3A24-7C63-EEEE-A67A3EB27475</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="97E1DAFE-0747-324A-E6CC-4F7AF1D509F6">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>6DECC83D-AEA5-2A4E-02F3-43EA997A6B4B</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="companyname" id="922DD177-6247-EDF5-ADAE-53F925FBDBD5">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>D18CC38A-0F4A-E94C-4792-C92ECE78CB54</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="D39CF161-5631-161E-D517-F461FF27A615">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>FDBEAE16-1ABC-CE35-B8A1-D5E66AE420E9</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salaryrange" id="31738FC9-15F4-3043-CE16-E490E6D3DE29">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>81B72AFD-54DC-6775-4F25-F8FDA96D907E</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modality" id="24DFFB9E-F534-B785-B558-E3A41D7C6361">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>8C9A55AF-7FD7-5EBB-D4F9-8FE3A2227800</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isactive" id="83B6B719-CC52-4D74-B259-8611E2216300">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>6C4B8874-297F-A722-CC3F-13F875B8366D</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="publishedat" id="EDFBC030-C51C-5FDE-0134-D43D2B2451B4">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>45F143FE-31C7-CD8F-87FE-489F12195754</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="expiresat" id="27C5AF33-9130-06E1-C86A-026AC50CD494">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>86FD202E-55D2-0259-0B12-0EA92A77E457</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_id" id="7E4947F9-03D7-6A8E-48FA-2EFF8179E5F6">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>D8596CBB-436E-7B19-3BB0-C3CD8A92387C</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B7479B0-3C93-1EFC-BE2F-1E6B06549DD9" referredColumn="E279D095-24AA-6E13-A33E-4593DD882AE2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F134ADF-0D0D-6A1D-F901-BC7F342326C5" name="JOB_PK">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>F9961176-D258-A9E9-B0AE-7859B166F262</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BE17982-ED92-DB34-6537-F15F2BA6048F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78A92086-4C68-40F9-177E-3051C72E70E3" name="JOB_USER_FK">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>2A600437-9FD2-9533-510E-8EED28A0FFE7</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E4947F9-03D7-6A8E-48FA-2EFF8179E5F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

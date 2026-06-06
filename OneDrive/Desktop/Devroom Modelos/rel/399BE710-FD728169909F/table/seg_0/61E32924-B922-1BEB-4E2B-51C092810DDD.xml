@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61E32924-B922-1BEB-4E2B-51C092810DDD" name="REPOSITORY">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>D1551242-AFC2-7141-A2E7-E80C69F590E3</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="47DDB7BD-E5C8-E088-4D4C-4C263D934A40">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>663BDB9B-10A4-0197-D721-F5286BCDB691</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="githubrepoid" id="C2F577E8-7517-F920-659A-FD0BDA59AA86">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>4B2EC274-F9BD-71B8-B944-EFAAA0C7F0AD</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="AC631BEC-68B5-880E-80C8-F24848200EF4">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>FF0EF181-094C-4DFD-3B06-D808B83FE89A</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="A37EADE4-E01F-8CBB-2A90-00F288E6E5F7">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>15751731-38F6-7538-2DC3-6006EF952366</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="url" id="E9A00766-A9B4-97D8-BF63-2DEBEAD96B55">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>F76D2349-2C52-74DE-2F7B-2C9FC542C577</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mainlanguage" id="A697DA16-38FC-E83F-EB78-6AEA53A1E121">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>CD4D1F2D-84BC-BDE0-B97D-94036FA69C0A</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="commits" id="5EAB4EDA-5338-0B7D-E97B-FE3FB2D65C79">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>1842519E-3320-74E5-3F8E-68506FC6FD6E</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="score" id="51A92F3E-3931-CA56-9711-627F4608F21C">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>41F15FA6-1B2D-CFD9-BA1F-16F95528E35C</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="scorelevel" id="20506B4F-7AF4-A636-B1C8-055DDB29E440">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>AF27D59A-EA3B-2979-A80C-E004487F165B</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isprivate" id="944B10E6-E824-2202-CED5-11DC3B3DEA8F">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>15C1D504-E0AC-ECF2-F6E6-44844C5E15EA</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lastcommitat" id="DC0489C9-0D0F-AE21-6F1E-9D2F738381BC">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>021C7DAA-7276-A49E-A371-1027F7DC03EE</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="analyzedat" id="9F0E8523-383E-A5D0-674B-F3B27DE92428">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>4D767583-7274-2D34-61D4-DC51550C2B21</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="createdat" id="D07D1635-3E3A-7DAF-1286-FD6B8838F1E1">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>19A8A235-9F78-007C-31AC-91B26A413CAD</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_id" id="046C8E60-01CE-D34B-132F-8ADF47EA9E62">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>19E0CED5-C432-FAA1-45A1-5F1AB12A0AD4</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24329213-95ED-86CE-D1D1-001BA3948E0E" referredColumn="E279D095-24AA-6E13-A33E-4593DD882AE2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C591ECA-BB8E-1422-AEF1-79E056BE8AE6" name="REPOSITORY_PK">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>70F0BB4E-AF9E-FE15-89C1-29A4E9441123</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47DDB7BD-E5C8-E088-4D4C-4C263D934A40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05C2238C-9878-270B-DC0C-3EC3D4D915B3" name="REPOSITORY_USER_FK">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>7E6307F5-8532-FCF0-132B-1C8AF411FBED</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="046C8E60-01CE-D34B-132F-8ADF47EA9E62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

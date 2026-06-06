@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58AE0FC2-0C03-77F6-C04F-48D7D1131CEA" name="JOB">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:53:32 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="494FDEF4-C8D1-1DD1-B47C-B667231AD614">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:53:37 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="A4AAFFAA-3A24-7C63-EEEE-A67A3EB27475">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:53:50 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="6DECC83D-AEA5-2A4E-02F3-43EA997A6B4B">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:54:00 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="companyname" id="D18CC38A-0F4A-E94C-4792-C92ECE78CB54">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:54:13 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location" id="FDBEAE16-1ABC-CE35-B8A1-D5E66AE420E9">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:54:25 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salaryrange" id="81B72AFD-54DC-6775-4F25-F8FDA96D907E">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:54:33 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modality" id="8C9A55AF-7FD7-5EBB-D4F9-8FE3A2227800">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:54:43 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isactive" id="6C4B8874-297F-A722-CC3F-13F875B8366D">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:54:56 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="publishedat" id="45F143FE-31C7-CD8F-87FE-489F12195754">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:55:12 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="expiresat" id="86FD202E-55D2-0259-0B12-0EA92A77E457">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:55:28 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="D8596CBB-436E-7B19-3BB0-C3CD8A92387C">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:01:31 UTC</createdTime>
+<generatorID>2A600437-9FD2-9533-510E-8EED28A0FFE7</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<referedAttribute>41688079-3109-0BF0-395C-23A9D4AA2D53</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F9961176-D258-A9E9-B0AE-7859B166F262" name="JOB PK">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:53:43 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>494FDEF4-C8D1-1DD1-B47C-B667231AD614</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

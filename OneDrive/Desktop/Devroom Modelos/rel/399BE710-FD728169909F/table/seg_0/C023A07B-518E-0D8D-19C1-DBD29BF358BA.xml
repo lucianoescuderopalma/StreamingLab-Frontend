@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C023A07B-518E-0D8D-19C1-DBD29BF358BA" name="JOB_SKILL_REQUIRIMENT">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>46E1F30F-6495-F02D-85CB-8F16CE61C463</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A052F884-0AFC-1FD9-AE21-0A9262CFC717">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>AFFD56A5-D742-6192-D5EA-8FA2F4042033</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="skillname" id="46255FB7-6837-9175-94F3-F6D5A54E53E1">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>1DFC8F75-886B-502C-7116-26DF61023B59</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isrequired" id="1ACA9818-7AAF-79A5-6548-710B7B1D9B24">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>C7D5B59E-E61C-8351-9C01-4E135963EAEC</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOB_id" id="55AE1E2E-0084-1884-A46A-52E004772069">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>D4C23B09-DD8B-BC22-38BE-E5296FA66D23</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0B6DE88-753C-6E7F-A696-E25F15E588A6" referredColumn="8BE17982-ED92-DB34-6537-F15F2BA6048F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB1A7EEF-2955-901E-8471-54B291256012" name="JOB_SKILL_REQUIRIMENT_PK">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>4599B360-D1D8-1C28-B56C-A2F2915ECBE5</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A052F884-0AFC-1FD9-AE21-0A9262CFC717"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34A7407D-C921-8973-4F74-3E836DEBFFD3" name="JOB_SKILL_REQUIRIMENT_JOB_FK">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:03:09 UTC</createdTime>
+<generatorID>D7271421-D311-03F8-892B-B7B2B213F5F6</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55AE1E2E-0084-1884-A46A-52E004772069"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

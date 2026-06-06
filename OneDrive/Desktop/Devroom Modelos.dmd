@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Devroom Modelos" id="AD13C01D-C9C4-DE83-99D6-D3C1D341AC7E" version="3.5">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:40:59 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AD13C01D-C9C4-DE83-99D6-D3C1D341AC7E</designId>
+</OSDM_Design>

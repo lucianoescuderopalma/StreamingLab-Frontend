@@ -1,0 +1,213 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1551242-AFC2-7141-A2E7-E80C69F590E3" name="REPOSITORY">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:46:32 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="663BDB9B-10A4-0197-D721-F5286BCDB691">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:46:38 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="githubrepoid" id="4B2EC274-F9BD-71B8-B944-EFAAA0C7F0AD">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:46:45 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="FF0EF181-094C-4DFD-3B06-D808B83FE89A">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:47:04 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="15751731-38F6-7538-2DC3-6006EF952366">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:47:15 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="url" id="F76D2349-2C52-74DE-2F7B-2C9FC542C577">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:47:41 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mainlanguage" id="CD4D1F2D-84BC-BDE0-B97D-94036FA69C0A">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:47:56 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="commits" id="1842519E-3320-74E5-3F8E-68506FC6FD6E">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:48:20 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="score" id="41F15FA6-1B2D-CFD9-BA1F-16F95528E35C">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:48:32 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="scorelevel" id="AF27D59A-EA3B-2979-A80C-E004487F165B">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:48:41 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isprivate" id="15C1D504-E0AC-ECF2-F6E6-44844C5E15EA">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:48:55 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lastcommitat" id="021C7DAA-7276-A49E-A371-1027F7DC03EE">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:49:26 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="analyzedat" id="4D767583-7274-2D34-61D4-DC51550C2B21">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:49:36 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="createdat" id="19A8A235-9F78-007C-31AC-91B26A413CAD">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:50:03 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="19E0CED5-C432-FAA1-45A1-5F1AB12A0AD4">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 05:00:14 UTC</createdTime>
+<generatorID>7E6307F5-8532-FCF0-132B-1C8AF411FBED</generatorID>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<referedAttribute>41688079-3109-0BF0-395C-23A9D4AA2D53</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="70F0BB4E-AF9E-FE15-89C1-29A4E9441123" name="REPOSITORY PK">
+<createdBy>airao</createdBy>
+<createdTime>2026-05-26 04:46:43 UTC</createdTime>
+<ownerDesignName>Devroom Modelos</ownerDesignName>
+<engineerTo>
+<item key="399BE710-2652-F7EF-8B42-FD728169909F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>663BDB9B-10A4-0197-D721-F5286BCDB691</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
